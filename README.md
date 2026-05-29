@@ -101,24 +101,38 @@ JWT httpOnly 쿠키 인증, AllExceptionsFilter + Sentry 관측, Jest 유닛 테
 
 ---
 
-### [🔗 webhook-service](https://github.com/grinvi04/webhook-service)
-> Python · FastAPI · Celery · Redis · SQLAlchemy · Docker
+### [⚙️ webhook-service](https://github.com/grinvi04/webhook-service)
+> Python · FastAPI · Celery · Redis · PostgreSQL · SQLAlchemy · Prometheus · Keycloak · Docker
 
-프로덕션 수준의 웹훅 처리 서비스. HMAC-SHA256 서명 검증, 비동기 큐 처리, 지수 백오프 자동 재시도, Admin UI 포함.
+**"서명 검증부터 자동 재시도까지 — 프로덕션 수준의 멀티테넌트 웹훅 수신·처리 플랫폼"**
+
+| 기능 | 설명 |
+|---|---|
+| 🏢 **멀티테넌트** | `tenant_id` 기반 완전 격리 — 고객별 독립 시크릿·이벤트·메트릭 관리 |
+| 🔐 **서명 검증** | GitHub HMAC-SHA256 · Stripe 공식 SDK — 위변조 페이로드 즉시 거부 |
+| ⚡ **비동기 큐** | Celery + Redis — API 202 응답과 처리 로직 완전 분리, 우선순위 큐 지원 |
+| 🔄 **신뢰성** | 최대 3회 지수 백오프 재시도 + Dead Letter Queue + 이벤트 Replay API |
+| 📊 **관측성** | Prometheus Counter·Histogram (수신량·처리 시간·에러율) + Grafana 대시보드 |
+| 🛡️ **보안** | Keycloak OAuth2 JWT 어드민 보호 · per-tenant 분당 100건 속도 제한 |
+| 🖥️ **Admin UI** | sqladmin 백오피스 — 웹훅 이벤트 조회·상태 관리 |
+
+GitHub Actions CI/CD · GHCR 자동 빌드·배포 · pytest 통합 테스트 14개 100% 통과
 
 ---
 
 ## 💼 Career Timeline
 
-```
-2024.11 ~ 2026.01  쥬비스다이어트    과장   EKS 전환 TF · 스크럼 마스터 · 개발 표준 수립
-2023.12 ~ 2024.10  스마트스코어      사원   MSA POC · 골프 서비스 BE 개발
-2021.07 ~ 2023.09  캐플릭스          팀원   Jeju Pass 포털 MSA 전환 · Vue3 마이그레이션
-2017.08 ~ 2021.06  연우피씨엔지니어링  차장  Tekla OpenAPI 플러그인 · 사내 ERP 구축
-2016.10 ~ 2017.07  더그리드          과장   E-commerce · 국내외 PG 연동
-2016.03 ~ 2016.09  허니비즈          사원   음식 배달 서비스 API 개발
-2011.10 ~ 2015.07  애니파이브        대리   SI · 특허관리 솔루션 (LG전자, ETRI 등 8개 프로젝트)
-```
+> **총 13년 7개월** · 7개 기업 · `SI` `이커머스` `설계 엔지니어링` `렌터카` `골프` `헬스케어`
+
+| 기간 | 재직 | 회사 | 직급 | 핵심 기여 |
+|:-----|:----:|:-----|:----:|:----------|
+| 2024.11 – 2026.01 | 1년 3개월 | **쥬비스다이어트** · 헬스케어 | 과장 | AWS EKS 전환 TF 주도 · 스크럼 마스터 · Spring Boot 개발 표준 수립 · 30여 개 서비스 Dockerizing · zero-downtime 배포 실현 |
+| 2023.12 – 2024.10 | 11개월 | **스마트스코어** · 골프·스포츠 | 사원 | MSA POC 설계 (Spring Cloud Eureka · Gateway) · 골프 서비스 백엔드 개발 · 100만 건 HyperLogLog 성능 개선 |
+| 2021.07 – 2023.09 | 2년 3개월 | **캐플릭스** · 렌터카·관광 | 팀원 | Jeju Pass 포털 MSA 전환 · Vue2 → Vue3 마이그레이션 · Spring WebFlux 도입 |
+| 2017.08 – 2021.06 | 3년 11개월 | **연우피씨엔지니어링** · 설계 엔지니어링 | 차장 | Tekla Structures OpenAPI 플러그인 개발 · 사내 ERP 구축 · 전사 개발 표준 정립 |
+| 2016.10 – 2017.07 | 10개월 | **더그리드** · 이커머스 | 과장 | E-commerce 플랫폼 · KG이니시스·나이스페이 국내외 PG 연동 |
+| 2016.03 – 2016.09 | 7개월 | **허니비즈** · O2O | 사원 | 음식 배달 서비스 REST API 개발 |
+| 2011.10 – 2015.07 | 3년 10개월 | **애니파이브** · SI | 대리 | LG전자·ETRI 등 8개 SI 프로젝트 수행 · 특허관리 솔루션 개발 |
 
 ---
 
