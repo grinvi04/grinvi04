@@ -2,7 +2,7 @@
 
 # 김봉민 (BongMin Kim)
 
-### 13년+ 백엔드 개발자 | Java/Spring · MSA · Kubernetes
+*혼자 빠르게보다, 함께 오래 — 13년이 그 증거입니다*
 
 [![Gmail](https://img.shields.io/badge/grinvi04@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:grinvi04@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-grinvi04-181717?style=flat-square&logo=github)](https://github.com/grinvi04)
@@ -14,11 +14,17 @@
 
 ## 👨‍💻 About Me
 
-Java/Spring 기반 백엔드 시스템을 중심으로 **13년 7개월**간 SI, 특허, 이커머스, 설계 엔지니어링, 렌터카, 골프, 헬스케어 등 다양한 도메인을 경험했습니다.
+**"앞에서 이끄는 사람"** 보다 **"곁에서 믿을 수 있는 사람"** 이 더 잘 맞습니다.
 
-단순한 기능 개발을 넘어 **시스템 안정성**과 **팀 생산성**을 함께 끌어올리는 것을 중요하게 생각합니다.  
-PL · PMO · 스크럼 마스터 역할을 통해 기술과 커뮤니케이션을 아우르는 경험을 쌓았으며,  
-최근에는 **Kubernetes 생태계**와 **AI 코딩 도구(Claude Code, Amazon Q Developer, MCP)**를 활용해 인프라 영역까지 시야를 넓히고 있습니다.
+PL · PMO · 스크럼 마스터를 거치며 팀을 이끌어본 경험이 있습니다.  
+그래도 가장 보람 있었던 순간은 동료와 긴밀하게 맞닿아 실질적으로 돕고, 같이 문제를 풀어냈을 때였습니다.
+
+Java/Spring으로 13년을 이어온 것도, Kubernetes와 AI 코딩 도구를 새로 익히고 있는 것도  
+결국 한 팀 안에서 **더 오래, 더 단단하게 기여하고 싶기 때문**입니다.
+
+지금 찾는 건 거창한 타이틀이 아니라, **장기적으로 함께 성장할 수 있는 안정적인 환경**입니다.
+
+> SI · 특허 · 이커머스 · 설계 엔지니어링 · 렌터카 · 골프 · 헬스케어 — 다양한 도메인에서 쌓아온 13년 7개월
 
 ---
 
