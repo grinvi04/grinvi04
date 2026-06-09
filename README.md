@@ -2,7 +2,7 @@
 
 # 김봉민 · BongMin Kim
 
-**Backend Engineer (13년차) · AI-증강 풀스택 빌더**
+백엔드 개발자
 
 [![Gmail](https://img.shields.io/badge/grinvi04@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:grinvi04@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-grinvi04-181717?style=flat-square&logo=github)](https://github.com/grinvi04)
@@ -13,11 +13,11 @@
 
 ## 👋 About Me
 
-13년차 백엔드 개발자입니다. Java/Spring 기반의 시스템을 오래 다뤄왔고, 요즘은 **AI 도구(Claude Code · MCP)를 개발 워크플로우에 통합**해 활용하는 데 관심이 많습니다.
+13년째 백엔드 개발하고 있습니다. 주로 Java/Spring을 다뤘습니다.
 
-가드레일·표준 슬래시 커맨드·자동 리뷰 게이트를 갖춘 **개발 "하네스"를 직접 꾸려가며**, 혼자서도 백엔드부터 프론트엔드·인프라까지 풀스택 서비스를 만들고 있습니다. 틈틈이 기술 블로그와 문서를 찾아보며 새 개념·도구를 꾸준히 익히는 편입니다.
+요즘은 Claude Code·MCP 같은 AI 도구를 개발에 어떻게 써먹을지 이것저것 실험 중입니다. AI한테 일관된 방식으로 일을 시키려고 가드레일·커맨드 같은 장치를 직접 만들어 보면서, 사이드 프로젝트 몇 개를 굴리고 있습니다. 깊게 파기보단 틈날 때 기술 블로그·문서 찾아보며 필요한 만큼 익히는 편입니다.
 
-오프라인에선 등산과 건강 관리, 주식에 진심입니다. ⛰️📈
+등산, 건강 관리, 주식 좋아합니다. ⛰️📈
 
 ---
 
@@ -118,7 +118,5 @@
 <div align="center">
 
 📫 **grinvi04@gmail.com**
-
-*혼자서도 팀처럼 — AI와 함께 빠르고 단단하게 만듭니다.*
 
 </div>
