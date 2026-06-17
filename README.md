@@ -104,6 +104,20 @@
 
 ---
 
+### [🍚 식구 (SIKU)](https://github.com/grinvi04/siku) · [Live →](https://siku-app.vercel.app)
+> React · Vite · TypeScript · Tailwind v4 · TanStack Query · Supabase (Postgres·Auth·Storage·RLS·Edge Functions) · PWA · Vercel
+
+**"밥 같이 먹는 사이, 식구 — 소규모 모임의 기록·사진·경비 정산 PWA"**
+
+| 기능 | 설명 |
+|---|---|
+| 🧾 경비 정산 | 균등 분할 또는 개인별 금액 지정 → 최소 이체 횟수 계산 → 계좌 복사 송금 (플랫폼 비종속) |
+| 📷 사진 | 모임별 갤러리 · 촬영 시각·위치 기준 자동 분류 |
+| 📍 다녀온 곳 | 사진 EXIF(위치·시각)로 방문 장소 자동 재구성 |
+| 🔐 인증·보안 | 이메일 매직링크 로그인 · Supabase RLS · CSP(enforce) |
+
+---
+
 ## 📊 GitHub Stats
 
 <div align="center">
