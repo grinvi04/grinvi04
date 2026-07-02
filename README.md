@@ -89,21 +89,6 @@
 
 ---
 
-### [🐀 쥐꼬리맵 (jwikoori-map)](https://github.com/grinvi04/jwikoori-map) · [Live →](https://jwikoori-map.vercel.app)
-> Spring Boot 3.3 · Java 17 · Clean Architecture + DDD · Vue 3 · PostgreSQL (Neon) · JPA · Flyway · Railway · Vercel
-
-**"대한민국 중소·중견기업 임금 정보 공개 플랫폼"**
-
-| 기능 | 설명 |
-|---|---|
-| 💰 임금 정보 공개 | 중소·중견기업 임금 데이터 검색·열람 |
-| 📝 임금 제보 | 사용자 임금 제보 등록 (블라인드 처리 지원) |
-| 🛡️ 신고·모더레이션 | 부적절 제보 신고 → 관리자 blind/dismiss (`@PreAuthorize` 인가) |
-| 🔐 인증 | Spring Security + JWT |
-| 🏛️ 아키텍처 | Clean Architecture + DDD (domain·application·infrastructure·interfaces 분리) |
-
----
-
 ### [⚙️ webhook-service](https://github.com/grinvi04/webhook-service)
 > Python · FastAPI · Celery · Redis · PostgreSQL · Prometheus · Keycloak · Docker
 
