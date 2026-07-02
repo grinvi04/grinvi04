@@ -58,8 +58,24 @@
 
 ## 📂 Projects
 
+### [🏢 ERP](https://github.com/grinvi04/erp)
+> Spring Boot 3.4 · Java 21 · Clean Architecture · Next.js 15 · Keycloak OIDC · PostgreSQL 16 · Flyway · Railway · Vercel
+
+**"수백 개 기업 × 수백 명 사용자 규모의 멀티테넌트 SaaS ERP"**
+
+| 모듈 | 기능 |
+|---|---|
+| 👥 HR/HCM | 사원 관리 · 부서·직책 · 결재선 기반 승인 워크플로우 |
+| 💰 Finance | 예산 편성 · 지출 승인 · 비용 처리 |
+| 📦 Inventory | 재고 입출고 · 발주 관리 · 물류 추적 |
+| 🤝 CRM | 영업 기회 · 거래처 관리 · 계약 파이프라인 |
+| 🔐 인증·인가 | Keycloak 단일 realm · RBAC(권한코드 + 데이터 스코프) · 멀티테넌트 격리 |
+| 🏛️ 아키텍처 | Clean Architecture · 도메인 모듈 1차 경계 · 모듈 간 이벤트 통신 |
+
+---
+
 ### [🌲 DriveTree](https://github.com/grinvi04/drivertree) · [Live →](https://drivertree.vercel.app)
-> NestJS · Next.js 16 · PostgreSQL (pgvector) · Prisma · Tailwind v4 · Railway · Vercel
+> NestJS · Next.js 15 · PostgreSQL (pgvector) · Prisma · Tailwind v4 · Railway · Vercel
 
 **"면허 학원도, 유튜브도 알려주지 않는 — 초보운전자를 위한 실전 가이드 서비스"**
 
@@ -115,6 +131,20 @@
 | 📷 사진 | 모임별 갤러리 · 촬영 시각·위치 기준 자동 분류 |
 | 📍 다녀온 곳 | 사진 EXIF(위치·시각)로 방문 장소 자동 재구성 |
 | 🔐 인증·보안 | 이메일 매직링크 로그인 · Supabase RLS · CSP(enforce) |
+
+---
+
+### [🔧 team-harness](https://github.com/grinvi04/team-harness)
+> Node.js · Shell · GitHub Actions · Claude Code Plugin
+
+**"AI 에이전트를 올바른 길로 강제하는 개발 거버넌스 프레임워크"**
+
+| 구성 | 설명 |
+|---|---|
+| 🛡️ harness-guard 플러그인 | git-flow 가드 · git-flow 커맨드(plan→feature-add→qa→release) · 상태 기반 의도 라우터 |
+| 🚧 가드 레일 | main/develop 직접 커밋 차단 · 맨손 gh pr merge 차단 · 시크릿 유출 방지 |
+| 🔄 repo-sync CI | 프로젝트가 harness 표준과 드리프트됐는지 PR마다 자동 점검 |
+| 📋 표준 문서 | API·DB·인증·Clean Architecture·AI 협업 가이드 단일 출처 |
 
 ---
 
