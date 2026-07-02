@@ -59,7 +59,7 @@
 ## 📂 Projects
 
 ### [🏢 ERP](https://github.com/grinvi04/erp)
-> Spring Boot 3.4 · Java 21 · Clean Architecture · Next.js 15 · Keycloak OIDC · PostgreSQL 16 · Flyway · Railway · Vercel
+> Spring Boot 3.4 · Java 21 · Clean Architecture · Next.js 16 · Keycloak OIDC · PostgreSQL 16 · Flyway · Railway · Vercel
 
 **"수백 개 기업 × 수백 명 사용자 규모의 멀티테넌트 SaaS ERP"**
 
@@ -75,7 +75,7 @@
 ---
 
 ### [🌲 DriveTree](https://github.com/grinvi04/drivertree) · [Live →](https://drivertree.vercel.app)
-> NestJS · Next.js 15 · PostgreSQL (pgvector) · Prisma · Tailwind v4 · Railway · Vercel
+> NestJS · Next.js 16 · PostgreSQL (pgvector) · Prisma · Tailwind v4 · Railway · Vercel
 
 **"면허 학원도, 유튜브도 알려주지 않는 — 초보운전자를 위한 실전 가이드 서비스"**
 
@@ -130,17 +130,6 @@
 | 🚧 가드 레일 | main/develop 직접 커밋 차단 · 맨손 gh pr merge 차단 · 시크릿 유출 방지 |
 | 🔄 repo-sync CI | 프로젝트가 harness 표준과 드리프트됐는지 PR마다 자동 점검 |
 | 📋 표준 문서 | API·DB·인증·Clean Architecture·AI 협업 가이드 단일 출처 |
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![grinvi04's GitHub stats](https://github-readme-stats.vercel.app/api?username=grinvi04&show_icons=true&hide_border=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=grinvi04&layout=compact&hide_border=true&theme=tokyonight)
-
-</div>
 
 ---
 
